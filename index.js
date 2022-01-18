@@ -9,7 +9,7 @@ var Base64 = require("js-base64").Base64;
 server.use(express.json())
 
 
-server.listen(8080)
+server.listen(8000)
 
 
 server.get('/:invoicekey', async (req, res )=> {
